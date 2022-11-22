@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="before.body.end">
+            <block name="rumvision.tracking" template="Vendic_RUMVision::tracking.phtml">
+                <arguments>
+                    <argument name="configuration" xsi:type="object">Vendic\RUMVision\ViewModel\Configuration</argument>
+                </arguments>
+            </block>
+        </referenceContainer>
+    </body>
+</page>
